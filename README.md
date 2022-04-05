@@ -57,9 +57,9 @@ Users should be able to:
 
 ### What I learned
 
--Sass
--Ajax
--Git & Github
+- Sass
+- Ajax
+- Git & Github
 
 ### Useful resources
 
