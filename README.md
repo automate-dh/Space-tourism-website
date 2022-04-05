@@ -28,10 +28,10 @@ Users should be able to:
 
 ### Screenshot
 
-![2]('/Space-tourism-website/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-54-52 Frontend Mentor Space tourism website.png')
-![4](/Space-tourism-website/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-56-02 Frontend Mentor Space tourism website.png)
-![](/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-56-39 Frontend Mentor Space tourism website.png)
-![](/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-58-58 Frontend Mentor Space tourism website.png)
+![]('/Space-tourism-website/space-tourism-website/assets/screenshots/first.png')
+![](/Space-tourism-website/space-tourism-website/assets/screenshots/second.png)
+![](/space-tourism-website/assets/screenshots/third.png)
+![](/space-tourism-website/assets/screenshots/fourth.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
