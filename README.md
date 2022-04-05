@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![2]('/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-54-52 Frontend Mentor Space tourism website.png')
-![4](/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-56-02 Frontend Mentor Space tourism website.png)
+![2]('/Space-tourism-website/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-54-52 Frontend Mentor Space tourism website.png')
+![4](/Space-tourism-website/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-56-02 Frontend Mentor Space tourism website.png)
 ![](/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-56-39 Frontend Mentor Space tourism website.png)
 ![](/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-58-58 Frontend Mentor Space tourism website.png)
 
