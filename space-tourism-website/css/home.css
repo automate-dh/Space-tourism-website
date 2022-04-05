@@ -432,9 +432,9 @@ body {
   color: #000;
 }
 
-@media (min-width: 58em) {
-  main {
-    align-items: flex-end;
-  }
-}
+/*main {
+    @include large {
+        align-items: flex-end;
+    }
+}*/
 /*# sourceMappingURL=home.css.map */
