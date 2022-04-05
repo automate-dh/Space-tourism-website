@@ -12,7 +12,7 @@ for (let page of pages) {
         let currentPage = document.getElementsByClassName("current-page")[0];
 
         xhr = new XMLHttpRequest();
-        xhr.open("GET", "/space-tourism-website/data.json", true);
+        xhr.open("GET", "/Space-tourism-website/space-tourism-website/data.json", true);
 
         xhr.onreadystatechange = () => {
             if (xhr.readyState == XMLHttpRequest.DONE) {
