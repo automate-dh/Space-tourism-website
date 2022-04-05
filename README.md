@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![]('/Space-tourism-website/space-tourism-website/assets/screenshots/first.png')
-![](/Space-tourism-website/space-tourism-website/assets/screenshots/second.png)
+![](/space-tourism-website/assets/screenshots/first.png)
+![](/space-tourism-website/assets/screenshots/second.png)
 ![](/space-tourism-website/assets/screenshots/third.png)
 ![](/space-tourism-website/assets/screenshots/fourth.png)
 
