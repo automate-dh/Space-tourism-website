@@ -62,7 +62,7 @@ Users should be able to:
 ### Useful resources
 
 - [Kevin Powell Youtube Channel](https://www.youtube.com/kepowob)
-- [Sass tutoria for beginners by freecodecamp](https://www.youtube.com/watch?v=_a5j7KoflTs&t=2044s)
+- [Sass tutorial for beginners by freecodecamp](https://www.youtube.com/watch?v=_a5j7KoflTs&t=2044s)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn)
 
 ## Author
