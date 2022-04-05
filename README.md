@@ -16,8 +16,6 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -30,7 +28,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![2](/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-54-52 Frontend Mentor Space tourism website.png)
+![4](/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-56-02 Frontend Mentor Space tourism website.png)
+![](/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-56-39 Frontend Mentor Space tourism website.png)
+![](/space-tourism-website/assets/screenshots/Screenshot 2022-04-05 at 09-58-58 Frontend Mentor Space tourism website.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
