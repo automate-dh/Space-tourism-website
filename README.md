@@ -37,8 +37,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://www.frontendmentor.io/solutions/spacetourismwebsite-r1VlG6YQq)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/spacetourismwebsite-r1VlG6YQq)
 - Live Site URL: [Github](https://automate-dh.github.io/Space-tourism-website/)
+- View Code: [Github](https://github.com/automate-dh/Space-tourism-website)
+
 
 ## My process
 
