@@ -57,9 +57,9 @@ Users should be able to:
 
 ### What I learned
 
-Sass
-Ajax
-Git & Github
+-Sass
+-Ajax
+-Git & Github
 
 ### Useful resources
 
@@ -69,5 +69,5 @@ Git & Github
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@automate-dh](https://www.frontendmentor.io/profile/automate-dh)
+- Hashnode - [@Automate](https://hashnode.com/@Automate)
