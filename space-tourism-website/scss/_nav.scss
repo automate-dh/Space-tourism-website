@@ -1,0 +1,103 @@
+.primary-navigation {
+    display: flex;
+    gap: 2em;
+    padding: 0 2em;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    @media (max-width: $medium) {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    @supports (backdrop-filter: blur(5px)) {
+        background-color: rgba(255, 255, 255, .2);
+        backdrop-filter: blur(5px);
+    }
+
+    .active {
+        border-bottom: 2.5px solid #fff;
+    }
+
+    li {
+        position: relative;
+
+        &:not(.active):hover {
+            &::after {
+                width: 100%;
+            }
+        }
+
+        a {
+            letter-spacing: 2.7px;
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            width: 0;
+            border-bottom: 1.5px solid #fff;
+            position: absolute;
+            bottom: 0;
+            transition: 360ms linear;
+        }
+
+        @media (min-width: $medium) {
+            padding: calc(1em + 1vw) 0;
+        }
+    }
+
+    .active {
+        border-bottom: 2px solid #fff;
+    }
+
+    @media (max-width: $medium) {
+        display: flex;
+        transform: translateX(100%);
+        flex-direction: column;
+        position: fixed;
+        inset: 0 0 0 30vw;
+        padding: 8em 2em;
+        transition: transform 1s;
+    }
+
+    @media (min-width: $large) {
+        padding: 0 calc(5em + 3vw) 0 calc(3em + 2vw);
+        gap: calc(1.5em + 2vw);
+    }
+
+}
+
+.primary-navigation[data-mobile-nav-state="open"] {
+    transform: translateX(0%);
+}
+
+.secondary-nav {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    
+    li {
+        position: relative;
+        &:not(.current-page):hover {
+            &::after {
+                width: 100%;
+            }
+        }
+
+        padding-bottom: .3rem;
+
+        &::after {
+            content: '';
+            display: block;
+            width: 0;
+            border-bottom: 1.5px solid #fff;
+            position: absolute;
+            bottom: 0;
+            transition: 360ms linear;
+        }
+    }
+
+    .current-page {
+        border-bottom: 2.5px solid #fff;
+    }
+}

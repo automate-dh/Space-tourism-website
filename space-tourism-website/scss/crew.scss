@@ -1,0 +1,63 @@
+@import 'variables';
+@import 'resets';
+@import 'general';
+@import 'nav';
+@import 'module';
+
+body {
+    @include set-background('background-crew.jpg');
+
+    main .main-text-container .pages {
+
+        button {
+            padding: .4em;
+            border-radius: 50%;
+            background-color: #979797;
+            border: 0;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        @media (min-width: $medium) {
+            order: 1;
+        }
+
+        .active-button {
+            background-color: #fff;
+        }
+    }
+
+    .image-wrapper {
+        border-bottom: 1px solid hsla(0, 0%, 77%, .25);
+        justify-content: space-around;
+
+        @media (min-width: $medium) {
+            border: 0;
+            grid-row: 3;
+            align-self: end;
+        }
+
+        @include large {
+            grid-column: 2;
+            grid-row: 1 / 3;
+            justify-content: right;
+        }  
+
+        .image {
+            width: calc(13rem + 2vw);
+            max-height: 30rem;
+            
+            @include medium {
+                width: calc(20rem + 2vw);
+            }
+            
+            @include large {
+                width: auto;
+            }
+        }
+    }
+
+    
+}

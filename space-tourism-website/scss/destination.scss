@@ -1,0 +1,63 @@
+@import 'variables';
+@import 'resets';
+@import 'general';
+@import 'nav';
+
+body {
+    @include set-background('background-destination.jpg');
+}
+
+.destination-info {
+    @include flexBox(column, center);
+    row-gap: 2.5rem;
+
+    @media (min-width: $medium) {
+        flex-direction: row;
+        column-gap: 2.5rem;
+    }
+
+    * {
+        text-align: center;
+
+        @media (min-width: $medium) {
+            text-align: left;
+        }
+    }
+}
+
+.dividing-line {
+    width: 80%;
+    border-top: 1px solid hsla(0, 0%, 77%, .25);
+    margin-block: 1.5rem;
+}
+
+main {
+    #col-1 {
+        @include flexBox(column, center);
+        .destination-image {
+            width: 10.625rem;
+            aspect-ratio: 1;
+        
+            @include medium {
+                width: 18.75rem;
+            }
+        
+           @include large {
+               width: calc(18rem + 2vw);
+           }
+        }
+        @include large {
+            align-items: flex-end
+        }
+    }
+
+    #col-2 {
+        @include flexBox(column, center);
+        row-gap: 1rem;
+
+        @include large {
+            align-items: flex-start;
+            margin-top: 1rem;
+        }
+    }
+}

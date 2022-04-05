@@ -1,0 +1,306 @@
+@mixin small {
+    @media (max-width: $medium) {
+        @content;
+    }
+}
+
+@mixin medium {
+    @media (min-width: $medium) AND (max-width: $large) {
+        @content;
+    }
+}
+
+@mixin large {
+    @media (min-width: $large) {
+        @content;
+    }
+}
+
+
+@mixin set-background($image) {
+    
+        background-image: url('../assets/mobile/' + $image);
+
+        @include medium() {
+            background-image: url('../assets/tablet/' + $image);
+        }
+
+        @include large() {
+            background-image: url('../assets/desktop/' + $image);
+        }
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+
+}
+
+@mixin flexBox($direction, $align) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+}
+
+@font-face {
+    font-family: 'barlow';
+    src: url('../assets/fonts/barlow-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/barlow-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'barlow_condensed';
+    src: url('../assets/fonts/barlowcondensed-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/barlowcondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bellefair';
+    src: url('../assets/fonts/bellefair-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/bellefair-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+// TYPOGRAPHY
+
+h1, h2, h3, h4 {
+    font-family: $font-family-serif;
+}
+
+h5, .subheading-2, nav a, title {
+    font-family: $font-family-sans-condensed;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1rem;
+    letter-spacing: 2.7px;
+    padding-bottom: 1.25rem;
+}
+
+.subheading-1 {
+    font-size: 1.75rem;
+}
+
+.subheading-2 {
+    font-size: 0.9rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+span[aria-hidden="true"] {
+    font-weight: 700;
+    margin-inline-end: .3em;
+}
+
+span.fade {
+    color: #c4c4c4;
+    font-size: inherit;
+}
+
+.body-text {
+    font-family: $font-family-sans;
+    text-align: center;
+    line-height: 25px;
+    font-size: 0.9375rem;
+
+    @include large {
+        text-align: left;
+    }
+}
+
+
+@include medium {
+    h1 {
+        font-size: 8rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+
+    h5 {
+        font-size: 1.25rem;
+    }
+
+    .body-text {
+        font-size: 1rem;
+    }
+
+    .subheading-2 {
+        font-size: 1rem;
+    }
+}
+
+@include large {
+    h1 {
+        font-size: 8rem;
+    }
+
+    h3 {
+        font-size: 3.5rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1.75rem;
+    }
+
+    .body-text {
+        font-size: 1.125rem;
+        line-height: 32px;
+    }
+
+    .subheading-2 {
+        font-size: 1rem;
+    }
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    #logo {
+        margin: 2em 2em;
+
+        @media (min-width: $medium)  {
+            margin-top: 1em;
+        }
+    }
+
+    .rotate {
+        animation: rotation 13s infinite linear;
+    }
+
+    @keyframes rotation {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+    }
+
+    .menu-toggle {
+        width: 2rem;
+        z-index: 1000;
+        aspect-ratio: 1;
+        position: absolute;
+        align-self: center;
+        right: 2rem;
+        background: transparent;
+        border: 0;
+        background-repeat: no-repeat;
+        display: none;
+
+        @media (max-width: $medium) {
+            display: block;
+        }
+
+    }
+
+    [aria-label="menu"] {
+        background-image: url(../assets/shared/icon-hamburger.svg);
+    }
+
+    [aria-label="close menu"] {
+        background-image: url(../assets/shared/icon-close.svg);
+    }
+
+    @include medium {
+        align-items: flex-start;
+    }
+
+    @include large {
+        padding-top: 1.5em;
+    }
+
+}
+
+.header-line {
+    @include large {
+        position: relative;
+        right: -30px;
+        border-bottom: 2px solid hsla(0, 0%, 59%, .25);
+        flex-grow: 1;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    padding: 2.5em;
+    gap: 2rem;
+
+    @media (max-width: $large) {
+        padding: 7vw;
+    }
+
+    @media (min-width: $large) {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-inline: calc(4.5rem + 3vw);
+        padding-bottom: 5rem;
+    }
+
+    .main-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (min-width: $large) {
+            align-items: flex-start;
+        }
+
+        .body-text {
+            max-width: 28.125rem;
+        }
+
+    }
+
+}

@@ -1,0 +1,91 @@
+@import 'variables';
+@import 'resets';
+@import 'general';
+@import 'nav';
+@import 'module';
+
+body {
+    @include set-background('background-technology.jpg');
+
+    main {
+        padding-right: 0;
+        gap: 0;
+        align-items: flex-start;
+
+        @media (max-width: $large) {
+            padding-inline: 0;
+        }
+
+        > *:not(.image-wrapper)  {
+            @media (max-width: $large) {
+                padding-inline: 7vw;
+            }
+        }
+    }
+
+    .main-text {
+        @media (max-width: $large) {
+            @include flexBox(column, center);
+        }
+    }
+
+    @include large {
+        .main-text-container {
+            flex-direction: row;
+            gap: 3rem;
+        }
+
+        .main-text-container .pages {
+            flex-direction: column;
+            order: -1;
+            gap: 2.5rem;
+            padding: 0;
+        }
+    }
+
+    .pages {
+
+        div {
+            @include flexBox(row, center);
+            justify-content: space-around;
+            aspect-ratio: 1;
+            width: calc(3em + 1vw);
+            border-radius: 50%;
+            border: 1px solid hsla(0, 0%, 77%, .25);
+
+            &:hover {
+                border: 1px solid hsl(0, 0%, 77%);
+            }
+
+            button {
+                background-color: transparent;
+                border: 0;   
+            }
+        }
+
+        .active-button {
+            background-color: #fff;
+
+            button {
+                color: #000;
+            }
+        }
+    }
+
+    .image-wrapper {
+        
+        @include large {
+            align-self: center;
+        }
+
+        .image {
+            @media (max-width: $large) {
+                width: 100%;
+            }
+            @include large {
+                width: calc(20rem + 2vw);
+            }
+        }
+    }
+
+}
