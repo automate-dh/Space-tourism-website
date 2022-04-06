@@ -399,7 +399,7 @@ main .main-text-container .body-text {
     padding-block: 15rem 7.5rem;
   }
   main h1 {
-    font-size: 9rem;
+    font-size: 9.375rem;
   }
   main h3 {
     font-size: 3.5rem;
@@ -408,12 +408,13 @@ main .main-text-container .body-text {
     font-size: 2rem;
   }
   main h5 {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    letter-spacing: 4.72px;
   }
   main .body-text {
-    font-size: 1.2rem;
+    font-size: 1.125rem;
     line-height: 33px;
-    max-width: 32rem !important;
+    max-width: 27.75rem !important;
   }
   main .subheading-2 {
     font-size: 1rem;
