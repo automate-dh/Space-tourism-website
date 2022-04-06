@@ -205,7 +205,7 @@ header {
     #logo {
         margin: 2em 2em;
 
-        @media (min-width: $medium)  {
+        @media (min-width: $medium) and (max-width: $xlarge) {
             margin-top: 1em;
         }
     }

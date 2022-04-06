@@ -176,7 +176,7 @@ header #logo {
   margin: 2em 2em;
 }
 
-@media (min-width: 35em) {
+@media (min-width: 35em) and (max-width: 88.75rem) {
   header #logo {
     margin-top: 1em;
   }
@@ -392,6 +392,38 @@ main .main-text-container .body-text {
   border-bottom: 2.5px solid #fff;
 }
 
+@media (min-width: 88.75rem) {
+  main {
+    min-width: 88.75rem;
+    justify-content: space-between;
+    padding-inline: calc(5rem + 3vw);
+    padding-bottom: 6rem;
+  }
+  main h1 {
+    font-size: 12rem;
+  }
+  main h3 {
+    font-size: 3.5rem;
+  }
+  main h4 {
+    font-size: 3rem;
+  }
+  main h5 {
+    font-size: 2.75rem;
+  }
+  main .body-text {
+    font-size: 1.5rem;
+    line-height: 40px;
+    max-width: 38rem !important;
+  }
+  main .subheading-2 {
+    font-size: 1rem;
+  }
+  .h4-container {
+    padding: 4em !important;
+  }
+}
+
 body {
   background-image: url("../assets/mobile/background-home.jpg");
   background-size: cover;
@@ -420,7 +452,7 @@ body {
   align-items: center;
   background-clip: padding-box;
   cursor: pointer;
-  transition: 2s linear;
+  transition: border 2s linear;
 }
 
 .h4-container:hover {

@@ -2,6 +2,7 @@
 @import 'resets';
 @import 'general';
 @import 'nav';
+@import 'xlarge';
 
 body {
     @include set-background('background-home.jpg');
@@ -16,7 +17,7 @@ body {
     align-items: center;
     background-clip: padding-box;
     cursor: pointer;
-    transition: 2s linear;
+    transition: border 2s linear;
 
     &:hover {
         border: 50px solid rgba(255, 255, 255, 0.2);

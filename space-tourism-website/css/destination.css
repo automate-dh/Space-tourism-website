@@ -176,7 +176,7 @@ header #logo {
   margin: 2em 2em;
 }
 
-@media (min-width: 35em) {
+@media (min-width: 35em) and (max-width: 88.75rem) {
   header #logo {
     margin-top: 1em;
   }

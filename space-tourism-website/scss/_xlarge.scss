@@ -1,0 +1,43 @@
+@media (min-width: $xlarge) {
+
+    main {
+        //max-width: 88.75rem;
+        min-width: 88.75rem;
+        //margin-inline: auto;
+        justify-content: space-between;
+        //align-items: center !important;
+        padding-inline: calc(5rem + 3vw);
+        padding-bottom: 6rem;
+
+        h1 {
+            font-size: 12rem;
+        }
+    
+        h3 {
+            font-size: 3.5rem;
+        }
+    
+        h4 {
+            font-size: 3rem;
+        }
+    
+        h5 {
+            font-size: 2.75rem;
+        }
+    
+        .body-text {
+            font-size: 1.5rem;
+            line-height: 40px;
+            max-width: 38rem !important;
+        }
+    
+        .subheading-2 {
+            font-size: 1rem;
+        }
+
+    }
+
+    .h4-container {
+        padding: 4em !important;
+    }
+}
