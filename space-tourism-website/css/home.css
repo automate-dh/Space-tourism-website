@@ -394,34 +394,33 @@ main .main-text-container .body-text {
 
 @media (min-width: 58em) {
   main {
-    min-width: 88.75rem;
     min-height: 800px;
     justify-content: space-between;
-    padding-inline: calc(5rem + 3vw);
-    padding-bottom: 6rem;
+    padding-inline: calc(7rem + 3vw);
+    padding-bottom: 7.5rem;
   }
   main h1 {
-    font-size: 12rem;
+    font-size: 9rem;
   }
   main h3 {
     font-size: 3.5rem;
   }
   main h4 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   main h5 {
-    font-size: 2.75rem;
+    font-size: 2rem;
   }
   main .body-text {
-    font-size: 1.5rem;
-    line-height: 40px;
-    max-width: 38rem !important;
+    font-size: 1.2rem;
+    line-height: 33px;
+    max-width: 32rem !important;
   }
   main .subheading-2 {
     font-size: 1rem;
   }
   .h4-container {
-    padding: 4em !important;
+    padding: 3.5em !important;
   }
 }
 

@@ -2,16 +2,16 @@
 
     main {
         //max-width: 88.75rem;
-        min-width: 88.75rem;
+        //min-width: 88.75rem;
         min-height: 800px;
         //margin-inline: auto;
         justify-content: space-between;
         //align-items: center !important;
-        padding-inline: calc(5rem + 3vw);
-        padding-bottom: 6rem;
+        padding-inline: calc(7rem + 3vw);
+        padding-bottom: 7.5rem;
 
         h1 {
-            font-size: 12rem;
+            font-size: 9rem;
         }
     
         h3 {
@@ -19,17 +19,17 @@
         }
     
         h4 {
-            font-size: 3rem;
+            font-size: 2rem;
         }
     
         h5 {
-            font-size: 2.75rem;
+            font-size: 2rem;
         }
     
         .body-text {
-            font-size: 1.5rem;
-            line-height: 40px;
-            max-width: 38rem !important;
+            font-size: 1.2rem;
+            line-height: 33px;
+            max-width: 32rem !important;
         }
     
         .subheading-2 {
@@ -39,6 +39,6 @@
     }
 
     .h4-container {
-        padding: 4em !important;
+        padding: 3.5em !important;
     }
 }
