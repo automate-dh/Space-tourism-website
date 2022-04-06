@@ -1,12 +1,12 @@
-@media (min-width: $xlarge) {
+@media (min-width: $large) {
 
     main {
         justify-content: space-between;
         padding-inline: calc(7rem + 3vw);
-        padding-block: 14rem 7rem;
+        padding-block: 10rem 9rem;
 
         h1 {
-            font-size: 9.375rem;
+            font-size: 8.9rem;
         }
     
         h3 {
@@ -18,14 +18,14 @@
         }
     
         h5 {
-            font-size: 1.75rem;
+            font-size: 1.45rem;
             letter-spacing: 4.72px;
             color: #D0D6F9;
         }
     
         .body-text {
-            font-size: 1.125rem;
-            line-height: 33px;
+            font-size: 1.12rem;
+            line-height: 30px;
             max-width: 27.75rem !important;
             color: #D0D6F9;
         }
@@ -37,6 +37,6 @@
     }
 
     .h4-container {
-        padding: 3.5em !important;
+        padding: 3.2em !important;
     }
 }

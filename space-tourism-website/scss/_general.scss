@@ -205,7 +205,7 @@ header {
     #logo {
         margin: 2em 2em;
 
-        @media (min-width: $medium) and (max-width: $xlarge) {
+        @media (min-width: $medium) {
             margin-top: 1em;
         }
     }
@@ -254,7 +254,7 @@ header {
     }
 
     @include large {
-        padding-top: 1.5em;
+        padding-top: 1.75em;
     }
 
 }

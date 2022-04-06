@@ -176,7 +176,7 @@ header #logo {
   margin: 2em 2em;
 }
 
-@media (min-width: 35em) and (max-width: 58em) {
+@media (min-width: 35em) {
   header #logo {
     margin-top: 1em;
   }
@@ -230,7 +230,7 @@ header [aria-label="close menu"] {
 
 @media (min-width: 58em) {
   header {
-    padding-top: 1.5em;
+    padding-top: 1.75em;
   }
 }
 
@@ -396,10 +396,10 @@ main .main-text-container .body-text {
   main {
     justify-content: space-between;
     padding-inline: calc(7rem + 3vw);
-    padding-block: 14rem 7rem;
+    padding-block: 10rem 9rem;
   }
   main h1 {
-    font-size: 9.375rem;
+    font-size: 8.9rem;
   }
   main h3 {
     font-size: 3.5rem;
@@ -408,13 +408,13 @@ main .main-text-container .body-text {
     font-size: 2rem;
   }
   main h5 {
-    font-size: 1.75rem;
+    font-size: 1.45rem;
     letter-spacing: 4.72px;
     color: #D0D6F9;
   }
   main .body-text {
-    font-size: 1.125rem;
-    line-height: 33px;
+    font-size: 1.12rem;
+    line-height: 30px;
     max-width: 27.75rem !important;
     color: #D0D6F9;
   }
@@ -422,7 +422,7 @@ main .main-text-container .body-text {
     font-size: 1rem;
   }
   .h4-container {
-    padding: 3.5em !important;
+    padding: 3.2em !important;
   }
 }
 

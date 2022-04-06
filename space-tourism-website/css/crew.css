@@ -176,7 +176,7 @@ header #logo {
   margin: 2em 2em;
 }
 
-@media (min-width: 35em) and (max-width: 58em) {
+@media (min-width: 35em) {
   header #logo {
     margin-top: 1em;
   }
@@ -230,7 +230,7 @@ header [aria-label="close menu"] {
 
 @media (min-width: 58em) {
   header {
-    padding-top: 1.5em;
+    padding-top: 1.75em;
   }
 }
 
