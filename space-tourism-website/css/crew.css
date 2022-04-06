@@ -261,7 +261,6 @@ main {
 @media (min-width: 58em) {
   main {
     flex-direction: row;
-    align-items: flex-start;
     justify-content: space-between;
     padding-inline: calc(4.5rem + 3vw);
     padding-bottom: 5rem;
