@@ -32,8 +32,8 @@ for (let page of pages) {
 
 
 function populateDom(pageContent) {
-    place.innerText = pageContent.name;
     image.setAttribute("src", pageContent.images["png"]);
+    place.innerText = pageContent.name;
     description.innerText = pageContent.description;
     distance.innerText = pageContent.distance;
     time.innerText = pageContent.travel;

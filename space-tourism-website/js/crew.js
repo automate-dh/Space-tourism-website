@@ -31,8 +31,8 @@ for (let page of pages) {
 
 
 function populateDom(pageContent) {
-    member.innerText = pageContent.name;
     image.setAttribute("src", pageContent.images["png"]);
+    member.innerText = pageContent.name;
     bio.innerText = pageContent.bio;
     role.innerText = pageContent.role;
 }
