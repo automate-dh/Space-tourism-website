@@ -244,6 +244,7 @@ header [aria-label="close menu"] {
 }
 
 main {
+  max-width: 77.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
