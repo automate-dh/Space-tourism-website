@@ -394,10 +394,9 @@ main .main-text-container .body-text {
 
 @media (min-width: 58em) {
   main {
-    min-height: 800px;
     justify-content: space-between;
     padding-inline: calc(7rem + 3vw);
-    padding-bottom: 7.5rem;
+    padding-block: 15rem 7.5rem;
   }
   main h1 {
     font-size: 9rem;
