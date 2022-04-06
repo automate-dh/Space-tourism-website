@@ -396,7 +396,7 @@ main .main-text-container .body-text {
   main {
     justify-content: space-between;
     padding-inline: calc(7rem + 3vw);
-    padding-block: 15rem 7.5rem;
+    padding-block: 14rem 7rem;
   }
   main h1 {
     font-size: 9.375rem;
